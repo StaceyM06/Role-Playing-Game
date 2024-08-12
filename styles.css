@@ -1,1 +1,49 @@
+:root {
+  --background-color1: #0a0a23;
+  --color-white: #ffffff;
+}
 
+body {
+  background: var(--background-color1);
+}
+
+#text {
+  background: var(--background-color1);
+  color: var(--color-white);
+  padding: 10px;
+}
+
+#game {
+  max-width: 500px;
+  max-height: 400px;
+  background: var(--color-white);
+  color: varr(--color-white);
+  margin: 30px auto 0px;
+  padding: 10px;
+}
+
+#controls, #stats {
+  border: 1px solid var(--background-color1);
+  color: var(--background-color1);
+  padding: 5px;
+}
+
+#monsterStats {
+  display: none;
+  border: 1px solid var(--background-color1);
+  color: var(--color-white);
+  padding: 5px;
+  background: #c70d0d;
+}
+
+.stat {
+  padding-right: 10px;
+}
+
+button {
+  cursor: pointer;
+  color: var(--backgroound-color1);
+  background-color: #feac32;
+  background-image: linear-gradient(#fecc4c, #ffac33);
+  border: 3px solid #feac32;
+}
